@@ -1,0 +1,93 @@
+/* Common Styles */
+body {
+    margin: 0px;
+    font-family: 'lora', 'sarif', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'roboto', 'erif';
+}
+
+.contact-grid-wrapper {
+    width: 1000px;
+    display: grid;
+    gap: 100px;
+    grid-template-columns: 1fr 3fr;
+}
+
+.company-metadata-sidebar-wrapper > .logo img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.company-metadata-sidebar-wrapper > .company-details-wrapper {
+    font-family: 'Lora', sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 1.25em;
+}
+
+.company-metadata-sidebar-wrapper > .company-details-wrapper i {
+    color: #d61010;
+    font-size: 1.5rem;
+}
+
+.btn {
+    background-color: #d61010;
+    color: #fff;
+    font-size: 1.25em;
+    margin-top: 30px;
+    padding: 10px 25px;
+    border:  1px solid #d61010;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.4s;
+}
+/* Button Styles */
+.btn:active {
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.6);
+    transition: 0.5s;
+
+}
+
+.btn:hover {
+    background-color: #239ea6;
+    cursor: pointer;
+}
+
+.center-btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+/* Page Container Styles*/
+.page-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+/* Page Container */
+
+.page-container > .content-wrapper {
+    width: 1000px;
+}
+
+.page-container > .content-wrapper > #coder {
+    width: 350px;
+    margin: 20px 30px 10px 0px;
+    float: left;
+    border: 1px solid #cea135;
+}
+
+.page-container > .content-wrapper p {
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+

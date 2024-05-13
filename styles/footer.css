@@ -1,0 +1,71 @@
+/* Footer Styles */
+.footer {
+    padding-top: 10px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    font-family: 'ubuntu condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+}
+
+.footer > .logo-footer img {
+    padding-top: 7px;
+    width: 110px;
+    height: 100%;
+    /* filter: brightness(50%); */
+    opacity: 0.5;
+}
+
+.footer > .phone-hours span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;    
+}
+
+.footer > .phone-hours > .hours {
+    font-size: 0.7em;
+    color: #d61010;
+    text-transform: uppercase;
+}
+
+.footer > .phone-hours > .phone {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    align-items: center;
+} 
+
+.footer > .links-wrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+.footer > .social-network-icons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer > .social-network-icons a {
+    font-size: 1.5em;
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+
+.footer > .social-network-icons a:hover {
+    font-size: 1.5em;
+    color: #05e386;
+    transition: 0.5s;
+}
+
+.footer > .footer-wrapper {
+    margin-bottom: 42px;
+    font-size: 0.7em;
+    columns: #858585;
+}
