@@ -64,13 +64,12 @@
      display: flex;
      justify-content: space-between;
      align-items: center;
- 
+    padding-right: 40px;
  }
  
  .links-wrapper > .nav-link {
-     width: 90px;
+     width: 100px;
      text-align: center;
-     padding-right: 40px;
  }
  
  .links-wrapper > .nav-link a {
@@ -82,7 +81,7 @@
  
  .links-wrapper > .nav-link a:hover {
      color: #05e386;
-     letter-spacing: 4px;
+     letter-spacing: 3px;
  }
 
   .links-wrapper > .nav-link a:active {

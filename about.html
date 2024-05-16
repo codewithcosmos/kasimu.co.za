@@ -15,73 +15,78 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
   <!-- Google API -->
   <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
-
+  <!-- Font Awesome Styles -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.2.0/css/all.css">
+  <!-- CSS Styles -->
+ <link rel="stylesheet" href="styles/common.css">
+ <link rel="stylesheet" href="styles/nav.css">
+ <link rel="stylesheet" href="styles/footer.css">
+ <link rel="stylesheet" href="styles/skewed-header.css">
+ <link rel="stylesheet" href="styles/page-container.css">
+ <link rel="stylesheet" href="styles/helpers.css">
+ <link rel="stylesheet" href="styles/contact.css">
+ <link rel="stylesheet" href="styles/form.css">
+ <link rel="stylesheet" href="styles/buttons.css">
+ <link rel="stylesheet" href="styles/media-queries.css">
 </head>
-
 <body>
     <!--============================= NAVBAR SECTION ==========================================-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="#logo">
-            <img src="assets/cB.png" alt="Logo" width="40" height="34" class="d-inline-block align-text-top">
-            Cosmos Mhlanga
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="services.html">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Me</a>
-              </li>
-                <a class="px-2" href="https://github.com/codewithcosmos" target="_blank"><i class="fab fa-github h3"></i></a>
-              </li>
-              <li>
-                <a class="px-2" href="https://linkedin.com/in/coslifem" target="_blank"><i class="fab fa-linkedin h3"></i></a>
-              </li>
-            </ul>
+    <header>
+      <div class="skewed-header">
+          <div class="header-bg" style="background-image: url('assets/contact-us.jpg');"></div>
+  
+          <div class="skewed-header-wrapper">
+              <div class="skewed-header-content">
+                  <div class="heading-wrapper">
+                      <h1>About Me</h1>
+                  </div>
+                   <!-- Link Wrapper -->
+                   <div class="links-wrapper">
+                      <div class="nav-link">
+                          <a href="index.html">Portfolio</a>
+                      </div>
+                      <div class="nav-link">
+                          <a href="about.html">Services</a>
+                      </div>
+                      <div class="nav-link">
+                          <a href="contact.html">Contact</a>
+                      </div>
+                  </div>
+              </div>
           </div>
-        </div>
-      </nav>
+      </div>
+  </header>
       <!-- END OF NAVBA -->
 
       <!-- About Hero Section -->
-<section class="about-me py-5">
-  <div class="jumbotron text-center">
-    <h1 class="display-4">About Me</h1>
+<section class="about-me p-5">
+  <div class="jumbotron text-center pt-5">
+    <h1><span style="color: chartreuse;">Cosmos Mhlanga: Your Digital Oasis</span></h1>
     <p><b>I work with a team of passionate professionals dedicated to providing top-notch solutions</b></p>
-    <img src="assets/myself.png" alt="about image">  
-    <h2><span style="color: chartreuse;">Cosmos Mhlanga: Your Digital Oasis</span></h2>
-    <p><b>Dive into a world of seamless web development, captivating graphic design, and dynamic digital marketing solutions with Cosmos</p> <Mhlanga class="br"></Mhlanga> <p>Harnessing the power of data science and coding expertise, Cosmos crafts tailored experiences that elevate your online presence</b></p> 
+    <p><b>Dive into a world of seamless web development, <br><br> Captivating graphic design, <br>and dynamic digital marketing solutions with Cosmos</p> <Mhlanga class="br"></Mhlanga> <p>Harnessing the power of data science and coding expertise, <br> Cosmos crafts tailored experiences that elevate your online presence</b></p>  <br>
     <h3>Let's transform your vision into reality, one pixel at a time.</h3>
   </div>
 
       <!-- About Us Section -->
       <section id="about-us" class="p-5 bg-dark text-light">
         <div class="container">
-          <h1 class="py-5 mb-2">About Me</h1>
+          <h1 class="p-5 mb-2 text-center bg-danger">About Me</h1>
           <div class="row">
             <div class="col-md-6">
               <div class="portfolio-item">
-                <img src="assets/mk.png"  class="img-fluid" alt="About Cosmos image">
+                <img src="assets/mk.png"  class="img-fluid border" alt="About Cosmos image">
               </div>
             </div>
             <div class="col-md-6">
-              <div class="portfolio-item px-5">
+              <div class="portfolio-item px-5 mb-0">
                 <h3>How It Started</h3>
-                <p> I embarked on a coding journey in 2020, discovering a profound passion for programming that has only grown stronger over time. This fervor extends beyond coding, encompassing a deep-seated interest in data science, Learnig Java, SQL, C Languages and related fields, fueling a continuous quest for knowledge and expertise..</p>
+                <p> I embarked on a coding journey in 2020, discovering a profound passion for programming that has only grown stronger over time. <br> <br>This fervor extends beyond coding, encompassing a deep-seated interest in data science, Learnig Java, SQL, C Languages and related fields, fueling a continuous quest for knowledge and expertise..</p>
                 <p>
                   I am a junior developer proficient in WordPress, Bootstrap, and Bootstrap Studio. My passion for coding has led me to successfully register companies and develop, maintain, and optimize websites, among other accomplishments.
                 </p>
                 <h3>Services</h3>
                 <ul>
-                  <li>Web Design</li>
+                  <li>Web Hosting</li>
                   <li>Web Development</li>
                   <li>Responsive Design</li>
                   <li>Database Management</li>
@@ -112,13 +117,13 @@
     <!-- Mission and Vison section -->
   <div class="container">
     <div class="row my-5">
-      <div class="col-md-6">
+      <div class="col-md-6 bg-dark">
         <img src="assets/Designer.png" class="img-fluid" height="164" alt="Mission image">
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 bg-dark">
         <h2>The Mission</h2>
         <ul>
-          <p class="lead"><b>Cosmos aim to deliver innovative and impactful solutions that exceed our clients' expectations.</b></p>
+          <p class="small" ><b>Cosmos aim to deliver innovative and impactful solutions that exceed our clients' expectations.</b></p>
           <ol>
             1.Empowering Through Education: Cosmos is on a mission to empower individuals through education, particularly in the fields of data science, coding, and technology. We believe that knowledge is a powerful tool for personal and societal growth.
           </ol>
@@ -135,10 +140,10 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6 bg-dark">
         <h2>The Vision</h2>
         <ul>
-          <p class="lead">
+          <p class="small">
           <b> To be the leading provider of cutting-edge technology solutions globally.</b>
            </p>
          <ol>
@@ -158,7 +163,7 @@
          </ol>
        </ul>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 bg-dark">
         <img src="assets/Button-style.png" class="img-fluid" alt="Vison Image">
       </div>
     </div>
