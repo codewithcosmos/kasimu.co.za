@@ -1,6 +1,6 @@
 # My Website
 
-## This portfolio serves as my website expertise 
+## This website serves as my portfolio  website.
 
 Website: https://cosmosmhlanga.co.za
 
